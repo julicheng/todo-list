@@ -39,3 +39,9 @@ input {
   margin: 20px;
   font-family: "The Girl Next Door";
 }
+
+.completedStyle {
+  font-style: italic;
+  text-decoration: line-through;
+  color: gray;
+}
