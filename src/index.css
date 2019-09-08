@@ -34,3 +34,8 @@ input {
   background: white;
   color: black;
 }
+
+.title {
+  margin: 20px;
+  font-family: "The Girl Next Door";
+}

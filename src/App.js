@@ -34,7 +34,12 @@ class App extends React.Component {
         <Todo data={todo} key={todo.id} handleChange={this.handleChange} />
       );
     });
-    return <div className="todoList">{todos}</div>;
+    return (
+      <div className="todoList">
+        <h1 className="title">My Todo List</h1>
+        {todos}
+      </div>
+    );
   }
 }
 
