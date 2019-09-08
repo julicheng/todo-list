@@ -23,6 +23,10 @@ p {
   font-family: "The Girl Next Door";
 }
 
+input {
+  align-self: center;
+}
+
 .todoList {
   margin: 50px auto;
   width: 300px;
